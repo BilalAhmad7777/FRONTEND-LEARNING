@@ -37,10 +37,10 @@ Building my frontend skills one component, page, and project at a time.
 | Stage | Status | Progress |
 | :--- | :--- | :---: |
 | 🟢 **Basic** | Completed | ![100](https://img.shields.io/badge/100%25-ff1e2d?style=flat-square&labelColor=07070d) |
-| 🟡 **Intermediate** | In progress | ![50](https://img.shields.io/badge/50%25-ff7a1a?style=flat-square&labelColor=07070d) |
+| 🟡 **Intermediate** | In progress | ![60](https://img.shields.io/badge/60%25-ff7a1a?style=flat-square&labelColor=07070d) |
 | ⚪ **Advanced** | Pending | ![0](https://img.shields.io/badge/0%25-7a0b14?style=flat-square&labelColor=07070d) |
 
-*Overall roadmap progress is approximately 50% when the three stages are
+*Overall roadmap progress is approximately ~50% when the three stages are
 weighted equally. Intermediate progress is an initial estimate and can
 be updated as I complete topics.*
 
@@ -67,14 +67,14 @@ building on them through practice.
 My current focus is understanding how frontend features fit together and
 writing them more reliably.
 
-- [ ] **React:** components, props, state, and the rendering model
-- [ ] **Hooks:** `useState`, `useEffect`, `useRef`, `useContext`, and custom hooks
-- [ ] **Routing:** client-side navigation with React Router
-- [ ] **Forms:** controlled inputs, validation, and user feedback
-- [ ] **API integration:** Fetch/Axios, loading states, and error states
-- [ ] **Authentication on the client:** login flows, protected routes, and token handling
+- [x] **React:** components, props, state, and the rendering model
+- [x] **Hooks:** `useState`, `useEffect`, `useRef`, `useContext`, and custom hooks
+- [x] **Routing:** client-side navigation with React Router
+- [x] **Forms:** controlled inputs, validation, and user feedback
+- [x] **API integration:** Fetch/Axios, loading states, and error states
+- [x] **Authentication on the client:** login flows, protected routes, and token handling
+- [x] **Styling at scale:** Tailwind CSS, CSS modules, and design consistency
 - [ ] **State management:** Context API, then Redux Toolkit or Zustand
-- [ ] **Styling at scale:** Tailwind CSS, CSS modules, and design consistency
 - [ ] **Project structure:** components, pages, hooks, services, and utilities
 - [ ] **Browser storage:** localStorage, sessionStorage, and cookie basics
 - [ ] **Real-time basics:** Socket.IO client fundamentals
@@ -148,7 +148,7 @@ git clone https://github.com/BilalAhmad7777/FRONTEND-LEARNING.git
 cd FRONTEND-LEARNING
 
 # Enter the specific project folder
-cd FRONTEND/1st-part
+cd ReactJs/17-gallery-project
 
 npm install
 npm run dev
