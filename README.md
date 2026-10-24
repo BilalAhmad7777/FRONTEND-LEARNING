@@ -148,7 +148,8 @@ git clone https://github.com/BilalAhmad7777/FRONTEND-LEARNING.git
 cd FRONTEND-LEARNING
 
 # Enter the specific project folder
-cd ReactJs/17-gallery-project
+cd ReactJs/17-gallery-projecy
+
 
 npm install
 npm run dev
