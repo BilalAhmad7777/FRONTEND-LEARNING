@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Crimson shrine banner">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07070d"/>
+      <stop offset="0.6" stop-color="#3a0a12"/>
+      <stop offset="1" stop-color="#7a0b14"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff5a5f"/>
+      <stop offset="0.7" stop-color="#ff1e2d"/>
+      <stop offset="1" stop-color="#ff1e2d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff1e2d" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ff1e2d" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#sky)"/>
+
+  <circle cx="600" cy="120" r="150" fill="url(#moon)" opacity="0.55"/>
+  <circle cx="600" cy="120" r="70" fill="#ff1e2d"/>
+
+  <path d="M0 230 L120 160 L210 205 L330 130 L450 210 L540 175 L600 215 L700 170 L800 215 L930 140 L1050 205 L1140 165 L1200 200 L1200 300 L0 300 Z" fill="#0b0b14" opacity="0.9"/>
+
+  <g fill="#050509">
+    <rect x="535" y="150" width="14" height="110"/>
+    <rect x="651" y="150" width="14" height="110"/>
+    <path d="M495 150 Q600 128 705 150 L705 166 Q600 146 495 166 Z"/>
+    <rect x="520" y="178" width="160" height="10"/>
+    <rect x="590" y="166" width="20" height="14"/>
+  </g>
+
+  <rect x="0" y="200" width="1200" height="100" fill="url(#mist)"/>
+
+  <g stroke="#ff1e2d" stroke-opacity="0.5" stroke-width="2" fill="none">
+    <path d="M60 40 L240 18"/>
+    <path d="M960 24 L1140 52"/>
+    <path d="M30 270 L1170 270" stroke-opacity="0.25"/>
+  </g>
+</svg>
